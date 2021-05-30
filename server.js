@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 app.get('/',(req,res)=>{
-res.send("Hello from the server side😎");
+res.send("Hello iam Jack here");
 });
 
 app.listen(process.env.PORT||3000);
